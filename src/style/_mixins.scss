@@ -1,0 +1,20 @@
+@import 'variables';
+
+
+
+@mixin flex($flexType,$flex-direction:column,$alignItems,$justifyContent,$gap:0){
+    display: $flexType;
+    flex-direction: $flex-direction;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+    gap: $gap;
+}
+
+
+// @mixin primary-font($font,$font-family,$font-weight){
+//     font-size: $font;
+//     font-family: $font-family;
+//     font-weight: $font-weight;
+//     line-height: normal;
+//     color: $primary-color;
+// }
